@@ -1,20 +1,40 @@
-title: "AIVAULT — Free Knowledge Archive" by Bob Mazzei
+"AIVAULT — Free Knowledge Archive"
 ---
 
-# AIVAULT
+<div align="center">
 
-Welcome to **AIVAULT**, a free public archive of articles about **Artificial Intelligence, Information Technology, and Business Solutions**.
+# **AIVAULT**
 
-Here you'll find reflections, case studies, and practical guides created to help readers, professionals, and curious minds understand how AI and digital transformation reshape industries — from agriculture to logistics, marketing, and beyond.
+*A public archive of writings on Artificial Intelligence, Information Technology, and Business Solutions*
 
-Each post was originally published during an extraordinary time of change for technology and society, and remains valuable for anyone exploring how AI fits into real-world decision-making.
-
----
-
-## 📘 Access the Archive
-
-👉 [**Open the full collection of articles (2022–2025)**](./aivault-2022-2025.md)
+</div>
 
 ---
 
-> **AIVAULT** — where knowledge stays free, practical, and timeless.
+Welcome to **AIVAULT**, a quiet corner of the web dedicated to practical knowledge about **AI**, **IT**, and **digital transformation**.
+
+This collection includes essays, notes, and real-world reflections.  
+Here you’ll find thoughtful explorations of how artificial intelligence reshapes industries, streamlines operations, and challenges how we think about business itself.
+
+The archive is entirely **free to read, reuse, and share**. No sign-ups, no noise — just ideas worth keeping.
+
+---
+
+<div align="center">
+
+### 📘 **Access the Full Archive**
+
+[👉 Open the complete collection (2022–2025)](./aivault-2022-2025.md)
+
+</div>
+
+---
+
+### 💡 About
+
+**AIVAULT** is curated and shared by [Bob Mazzei](https://sienda.co.uk).  
+It’s part of an ongoing effort to make **AI literacy** accessible to professionals, students, and curious thinkers worldwide.
+
+---
+
+> **AIVAULT** — where knowledge stays open, useful, and human - by Bob Mazzei.
