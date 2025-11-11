@@ -38,3 +38,27 @@ It’s part of an ongoing effort to make **AI literacy** accessible to professio
 ---
 
 > **AIVAULT** — where knowledge stays open, useful, and human - by Bob Mazzei.
+
+<style>
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+</style>
+
