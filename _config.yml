@@ -1,3 +1,5 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 title: AIVAULT
-description: Free archive of articles on AI, IT, and business solutions 
+description: Free archive of articles on AI, IT, and business solutions
+logo: /favicon.png  # optional, you can add a small logo or icon later
+show_downloads: false  # removes the GitHub button
