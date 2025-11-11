@@ -1,8 +1,7 @@
----
 title: "AIVAULT — Free Knowledge Archive" by Bob Mazzei
 ---
 
-# 🤖 AIVAULT
+# AIVAULT
 
 Welcome to **AIVAULT**, a free public archive of articles about **Artificial Intelligence, Information Technology, and Business Solutions**.
 
