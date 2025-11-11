@@ -2,7 +2,7 @@
 title: "AIVAULT — Free Knowledge Archive"
 ---
 
-<div class="page-box">
+<div class="wrapper">
 
 # **AIVAULT**
 
@@ -18,7 +18,7 @@ Everything is free to read, share, and reuse.
 
 ### 📘 **Access the Full Archive**
 
-👉 [**Open the complete collection (2022–2025)**](./aivault-2022-2025.md)
+👉 [**Open the complete collection (2022–2025)**](aivault-2022-2025.html)
 
 ---
 
@@ -36,48 +36,44 @@ The goal is simple: make technology understandable and useful — without unnece
 </div>
 
 <style>
-/* --- Reset GitHub Pages layout --- */
-header, .site-header, .site-footer, .site-nav {
+/* Hide all GitHub default page elements */
+header, footer.site-footer, .site-header, .site-nav, .page-header {
   display: none !important;
 }
 
-/* --- Page background --- */
+/* --- Reset & Layout --- */
 body {
-  background-color: #f8f9fa;
+  background: #f6f7f8;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: #1a1a1a;
   line-height: 1.7;
 }
 
-/* --- Box container --- */
-.page-box {
-  max-width: 1100px;              /* Wide but still centred */
-  background: #ffffff;            /* Boxed white panel */
+/* --- Central Box --- */
+.wrapper {
+  max-width: 1100px;          /* wide yet boxed */
+  background: #ffffff;
   margin: 3rem auto;
-  padding: 3rem 3.5rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 3rem 3rem 4rem;
   border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 /* --- Typography --- */
 h1, h2, h3 {
+  text-align: center;
   font-weight: 600;
   line-height: 1.3;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  margin: 2rem 0 1rem 0;
 }
 h1 {
-  font-size: 2.3rem;
-  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  margin-top: 0;
 }
 p {
-  margin: 1rem 0;
   font-size: 1.05rem;
-}
-strong {
-  font-weight: 600;
+  margin: 1rem 0;
 }
 
 /* --- Links --- */
@@ -89,11 +85,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- Divider --- */
+/* --- Dividers --- */
 hr {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 2.8rem 0;
+  margin: 2.5rem 0;
 }
 
 /* --- Footer --- */
