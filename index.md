@@ -2,7 +2,7 @@
 title: "AIVAULT — Free Knowledge Archive"
 ---
 
-# 🤖 **AIVAULT**
+# **AIVAULT**
 
 Welcome to **AIVAULT**, a clean, public archive of writings on **Artificial Intelligence**, **Information Technology**, and **Business Solutions**.
 
