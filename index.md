@@ -2,6 +2,8 @@
 title: "AIVAULT — Free Knowledge Archive"
 ---
 
+<div class="page-box">
+
 # **AIVAULT**
 
 Welcome to **AIVAULT**, a clean, public archive of writings on **Artificial Intelligence**, **Information Technology**, and **Business Solutions**.
@@ -31,36 +33,44 @@ The goal is simple: make technology understandable and useful — without unnece
 <p>© because knowledge should circulate as freely as data — by <strong>Bob Mazzei</strong>.</p>
 </footer>
 
----
+</div>
 
 <style>
-/* --- Page Layout --- */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.7;
-  color: #1a1a1a;
-  max-width: 820px;
-  margin: 0 auto;
-  padding: 2.5rem 1rem;
-  background-color: #fff;
+/* --- Reset GitHub Pages layout --- */
+header, .site-header, .site-footer, .site-nav {
+  display: none !important;
 }
 
-/* Hide GitHub button and extra layout elements */
-header, footer.site-footer, .site-header, .site-nav {
-  display: none !important;
+/* --- Page background --- */
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.7;
+}
+
+/* --- Box container --- */
+.page-box {
+  max-width: 1100px;              /* Wide but still centred */
+  background: #ffffff;            /* Boxed white panel */
+  margin: 3rem auto;
+  padding: 3rem 3.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
 }
 
 /* --- Typography --- */
 h1, h2, h3 {
   font-weight: 600;
   line-height: 1.3;
-  margin-top: 2.2rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   text-align: center;
 }
 h1 {
-  font-size: 2.1rem;
-  margin-top: 1.5rem;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
 }
 p {
   margin: 1rem 0;
@@ -86,20 +96,11 @@ hr {
   margin: 2.8rem 0;
 }
 
-/* --- Blockquote --- */
-blockquote {
-  font-style: italic;
-  color: #444;
-  border-left: 3px solid #007acc;
-  padding-left: 1rem;
-  margin: 2rem 0;
-}
-
-/* --- Custom Footer --- */
+/* --- Footer --- */
 footer {
   text-align: center;
   margin-top: 3rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   border-top: 1px solid #ddd;
   font-size: 0.95rem;
   color: #555;
