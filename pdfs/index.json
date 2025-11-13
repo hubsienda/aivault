@@ -4,4 +4,47 @@
     "file": "masteringai.pdf",
     "description": "A complete guide to using AI for automation, analytics, and personalised digital campaigns."
   }
+  [
+  {
+    "file": "AIETHICSOVERVIEW.pdf",
+    "title": "AI Ethics Overview",
+    "description": "A concise introduction to the ethical principles and frameworks guiding responsible AI use."
+  },
+  {
+    "file": "AISALES.pdf",
+    "title": "AI Prompts for Sales",
+    "description": "A curated collection of persuasive AI prompts for selling consulting services and managing objections."
+  },
+  {
+    "file": "AIWEB.pdf",
+    "title": "How GPTs Access Web Content",
+    "description": "Explains how AI models retrieve, interpret, and surface online content — and how to optimise yours."
+  },
+  {
+    "file": "OPENAIBASICGUIDE.pdf",
+    "title": "OpenAI — Beginner’s Guide to ChatGPT",
+    "description": "A friendly introduction to ChatGPT’s capabilities, prompting basics, and practical daily uses."
+  },
+  {
+    "file": "TRANSFORMINGBUSINESS.pdf",
+    "title": "Unleashing AI Brilliance — Transforming Your Business",
+    "description": "A strategic guide blending psychology, AI, and business transformation with humour and clarity."
+  },
+  {
+    "file": "AIETHICS.pdf",
+    "title": "The Ethical Use of AI (Complete Edition)",
+    "description": "A comprehensive analysis of AI ethics, misuse scenarios, legal distinctions, and best-practice frameworks."
+  },
+  {
+    "file": "AIBEGINNERS.pdf",
+    "title": "AI Beginner’s Guide",
+    "description": "A light, humorous introduction to neural networks, machine learning, deep learning, and practical business use."
+  },
+  {
+    "file": "AIMARKETING.pdf",
+    "title": "Mastering Digital Marketing with AI",
+    "description": "A complete course-style guide on automating marketing, analysing data, personalising content, and building campaigns with AI."
+  }
+]
+
 ]
