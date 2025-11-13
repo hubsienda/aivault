@@ -53,5 +53,20 @@
   "file": "AIFBINDUSTRY.pdf",
   "title": "How to Implement AI in the Food & Beverage Industry",
   "description": "A practical guide to applying AI across the food and beverage value chain, covering strategy, data preparation, supply-chain optimisation, logistics, software selection, staff training, and OKR-based organisational improvement."
+},
+  {
+  "file": "DATAPRIVACY.pdf",
+  "title": "Quick Guide to Privacy Policy Regulations",
+  "description": "A practical overview of privacy laws in the EU, UK, and USA, covering GDPR principles, compliance steps, DPO requirements, and essential data-protection practices for organisations."
+},
+{
+  "file": "ThinkingRationally.pdf",
+  "title": "A Brief Guide to Thinking Rationally",
+  "description": "A clear and engaging guide to rational thinking, cognitive biases, scientific reasoning, and how irrational decision-making can harm organisations—and how to correct it."
+},
+{
+  "file": "TraceabilityFB.pdf",
+  "title": "Traceability in the Food & Beverage Industry",
+  "description": "An introduction to traceability requirements across the food and beverage supply chain, covering regulations, tracking vs tracing, consumer protection, and software-supported farm-to-fork workflows."
 }
 ]
