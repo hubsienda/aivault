@@ -1,0 +1,13 @@
+<ul id="downloads"></ul>
+<script>
+fetch('pdfs/index.json')
+  .then(res => res.json())
+  .then(data => {
+    const list = document.getElementById('downloads');
+    data.forEach(doc => {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="pdfs/${doc.file}" target="_blank"><b>${doc.title}</b></a><br><small>${doc.description}</small>`;
+      list.appendChild(li);
+    });
+  });
+</script>
