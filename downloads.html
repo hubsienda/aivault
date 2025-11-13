@@ -109,7 +109,7 @@ Access free and premium resources in <strong>PDF format</strong> — practical g
 </div>
 
 <script>
-  fetch('pdfs/index.json')
+  fetch('https://hubsienda.github.io/aivault/pdfs/index.json')
     .then(response => {
       if (!response.ok) throw new Error('Network response was not ok');
       return response.json();
@@ -118,5 +118,24 @@ Access free and premium resources in <strong>PDF format</strong> — practical g
       const list = document.getElementById('downloads-list');
       const loadingText = document.getElementById('loading');
       loadingText.style.display = 'none';
+
+      if (!data || data.length === 0) {
+        list.innerHTML = '<p style="text-align:center;color:#777;">No downloads available yet.</p>';
+        return;
+      }
+
       data.forEach(doc => {
-        const li = document.creat
+        const li = document.createElement('li');
+        li.className = 'download-item';
+        li.innerHTML = `
+          <a href="pdfs/${doc.file}" target="_blank">${doc.title}</a>
+          <small>${doc.description}</small>
+        `;
+        list.appendChild(li);
+      });
+    })
+    .catch(error => {
+      document.getElementById('loading').textContent = '⚠️ Could not load downloads.';
+      console.error('Error fetching downloads:', error);
+    });
+</script>
