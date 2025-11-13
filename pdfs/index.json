@@ -48,5 +48,10 @@
   "file": "AIFARMTOFORK.pdf",
   "title": "Leveraging AI Across the Farm-to-Fork Value Chain",
   "description": "A practical guide showing how AI enhances agriculture, processing, logistics, retail, and traceability across the entire farm-to-fork value chain."
+},
+  {
+  "file": "AIFBINDUSTRY.pdf",
+  "title": "How to Implement AI in the Food & Beverage Industry",
+  "description": "A practical guide to applying AI across the food and beverage value chain, covering strategy, data preparation, supply-chain optimisation, logistics, software selection, staff training, and OKR-based organisational improvement."
 }
 ]
